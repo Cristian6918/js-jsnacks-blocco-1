@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    color:goldenrod;
+    font-family: 'Limelight', cursive;
+}
+
+.ct_bg-black{
+    background-color: black;
+    height: 100vh;
+}
+
+
+.ticket{
+    background-image: url(gatsby.jpg);
+    background-position: center;
+    background-size:cover;
+    height:50vh;
+    border:10px double goldenrod;
+    margin-top:100px;
+    
+}
+#verify_button{
+    font-size:1.2rem;
+   background-color: black;
+   border:1px double goldenrod;
+}
+#verify_button:hover{
+    box-shadow: 5px 5px goldenrod, 10px 10px black;
+}
+
+#name{
+    border:4px double goldenrod;
+    padding:0px;
+}
+
+#add{
+    color:white;
+}
+
+
+
+
