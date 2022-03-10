@@ -18,4 +18,5 @@ for (i = 0; i < str.length; i++) {
 console.log('il numero da te selezionato è', str);
 console.log('la somma è', total);
 
-
+let result = document.querySelector('#res');
+result.innerText = `Hai scelto il numero ${str} e la somma delle sue cifre è ${total}`;
